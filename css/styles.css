@@ -1,0 +1,612 @@
+@font-face {
+    font-family: 'Martel', serif;
+    src: url("https://fonts.googleapis.com/css?family=Martel&display=swap")
+}
+
+@font-face {
+    font-family: "DM Sans", sans-serif;
+    src: url("https://fonts.googleapis.com/css?family=DM+Sans&display=swap")
+}
+@font-face {
+    font-family: 'Padauk', sans-serif;
+    src: url("https://fonts.googleapis.com/css?family=DM+Sans|Padauk&display=swap")
+}
+
+
+header {
+  background: url("../images/LAMountainsLogo.jpg") no-repeat;
+  width: 100%;
+  background-position-x: unset;
+}
+
+.container {
+  background-image: url("../images/climb_mountain2.jpg") no-repeat;
+  width: 100%;
+  max-height: calc(100vh-100px);
+}
+
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+  max-height: calc(83vh);
+  height: calc(83vh);
+}
+
+.jumbotron {
+  background-image: url("../images/LAMountainsLogo.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
+
+.jumbotron2 {
+  padding: 2rem 1rem;
+  background-color: blue;
+  border-radius: .4rem;
+  max-height: calc(100vh);
+  height: calc(100vh);
+  background-image: url("../images/climb_mountain2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron3 {
+  padding: 2rem 1rem;
+  background-color: blue;
+  border-radius: .4rem;
+  max-height: calc(85vh);
+  height: calc(77vh);
+  background-image: url("../images/mountainClimb3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* a:hover {
+  border-bottom: none;
+} */
+
+#collapsible{
+  display: flex;
+  justify-content: space-around;
+}
+
+#collapsible > a > img { 
+  color: darkgray;
+}
+
+#floatPara {
+  display: flex;
+}
+
+#floatPara > a {
+  color: #000000b5;
+}
+
+
+.navbar-brand img {
+  color: black;
+  border-radius: 50%;
+  background-color: white;
+  width: 30px;
+}
+
+#navbarHeader {
+  color: black;
+}
+
+
+.navbar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+}
+
+
+b, strong {
+  font-weight: bolder;
+  margin: 8px;
+  color: #000000b5;
+}
+
+#footer-para {
+  line-height: 0.9 !important;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+  color: black;
+}
+
+.container {
+  display: flex;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.d-flex {
+  display: flex;
+  align-content: center;
+  margin-left: 40px;
+}
+
+.container-para {
+  margin-right: 8px;
+  margin-bottom: 0;
+
+}
+
+.my-2 {
+  color: white;
+  font-family: Martel;
+  margin: 5px 5px 4px 3px;
+  text-align: center;
+}
+
+#collapsible > p > a {
+  border-bottom: 2px solid white;
+}
+
+#collapsible > p > a:hover {
+    border-bottom: 2px solid white;
+  }
+
+.my-3 {
+  color: black;
+  font-family: Martel;
+  margin-bottom: 0 !important;
+  margin-right: 10px;
+  text-align: center;
+}
+
+/* 4th heading */
+.heading-4 {
+  margin-left: 5em;
+}
+
+#subhead-4 {
+  margin-bottom: -4.5rem;
+  font-family: inherit;
+  font-size: 132px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #7a8088;
+}
+
+#secClimbPara {
+  width: 50%;
+  margin-left: 20em;
+  margin-top: -3em;
+}
+
+div.square {
+  border: solid 14px #7a8088;
+  width: 2px;
+  height: 2px;
+  margin-left: 1.3em;
+  margin-top: -57px;
+}
+
+#climb {
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: "Padauk";
+  margin-left: 5.5em;
+  color: #343a40;
+  margin-bottom: -66px;
+  position: relative;
+}
+
+/* carousel content */
+.carousel {
+  margin-top: -134px;
+}
+
+#multi-item-example > ol > li {
+  list-style-type: disc; 
+}
+
+
+.carousel-item.active {
+   display: flex;
+}
+
+.carousel-inner, .carousel-item.active {
+  background: 
+  linear-gradient(217deg, rgba(40,50,50,.8), rgba(40,50,55,0.5) 70.71%),
+  linear-gradient(127deg, rgba(40,50,55,.9), rgba(40,50,55,0.5) 70.71%),
+  linear-gradient(336deg, rgba(0,50,50,0.8), rgba(0,50,255,0.9) 70.71%)
+}
+
+.carousel-indicators {
+  color: black;
+}
+
+.card {
+  width: 240px;
+}
+
+/* hide accordion until mobile activated */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  display: none;
+  background-color: rgb(60, 76, 107);
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+  
+/* Add a background color to the button if it is 
+    clicked on (add the .active class with JS), 
+    and when you move the mouse over it (hover)
+*/
+.active, .accordion:hover {
+background-color: #ccc;
+}
+  
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+background-color: white;
+display: none;
+overflow: hidden;
+}
+/* panel button while not active */
+button.accordion:after {
+    content: '\002B';
+    color: whitesmoke;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button:focus {
+  outline: 5px double lightgrey;
+}
+
+.col-md-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* panel button when active */
+button.accordion.active:after {
+    content: "\2212";
+}
+/* end of accordion mobile flip */
+
+/* fifth Heading */
+.fifthHeading {
+  width: 100%;
+  margin-top: 2em;
+  background: #3c4c6b;
+  height: 36px;
+}
+
+.fifthHeading > ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.fifthHeading > ul > li {
+  display: inline-block;
+  color: #7a8088 !important;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.fifthHeading > ul > li > a {
+    color: #7a8088;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.fifthHeading > ul > li > a:hover {
+  color: #3c4c6b;
+  background: rgba(200, 200, 200, 0.5);
+}
+
+body {
+  line-height: 1.5;
+}
+
+body > main:nth-child(6) > footer > p {
+    font-weight: 700;
+    font-family: "Padauk";
+}
+
+
+
+footer {
+  background: #3c4c6b;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer  * {
+  color: #7a8088;
+}
+
+/* Media query section */
+
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 1.75rem; 
+  }
+    
+  .jumbotron{
+    background-size: cover;
+    width: 100%;
+    background-position-x: -530px;
+  }
+    
+  .jumbotron2 {
+    background-position-x: -608px;
+  }
+    
+  .jumbotron3 {
+    background-position-x: -340px;
+  }
+    
+  #secClimbPara {
+    width: 90%;
+    margin-left: 0;
+    margin-top: 2em;
+  }
+    
+  .card {
+    width: 210px;
+    margin: 10px;
+  }
+    
+  .carousel-item.active {
+    margin: 0;
+  }
+  
+  .fifthHeading {
+    margin-top: 2em;
+  }
+    
+  .fifthHeading > ul > li {
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  footer > * {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      font-size: 1.50rem; 
+    }
+      
+    .jumbotron{
+      background-size: cover;
+      width: 100%;
+      background-position-x: -430px;
+      max-height: calc(88vh);
+      height: calc(88vh);
+    }
+      
+    .jumbotron2 {
+      background-position-x: -448px;
+    }
+      
+    .jumbotron3 {
+      background-position-x: -340px;
+    }
+      
+    #secClimbPara {
+      width: 90%;
+      margin-left: 0;
+      margin-top: 2em;
+    }
+      
+    .card {
+      width: 210px;
+      margin: 10px;
+    }
+
+    .carousel {
+      margin-top: -107px;
+    }
+      
+    .carousel-item.active {
+      margin: 0;
+    }
+    
+    .fifthHeading {
+      margin-top: 2em;
+    }
+      
+    .fifthHeading > ul > li {
+      font-size: 24px;
+      cursor: pointer;
+    }
+  
+    footer > * {
+      font-size: 1rem;
+    }
+  }
+
+
+@media only screen and (max-width: 414px) {
+    body {
+      font-size: 0.75rem; 
+    }
+
+    #multi-item-example {
+      display: none;
+    }
+
+    .accordion {
+      display: block;
+    }
+    
+    .jumbotron{
+      background-size: cover;
+      width: 100%;
+      background-position-x: -300px;
+      height: calc(84vh);
+    }
+    
+    .jumbotron2 {
+      background-position-x: -318px;
+    }
+    
+    .jumbotron3 {
+      background-position-x: -340px;
+    }
+    
+    #secClimbPara {
+      width: 90%;
+      margin-left: 0;
+      margin-top: 2em;
+    }
+    
+    .card {
+      width: 180px;
+      margin: 0;
+    }
+    
+    .carousel-item.active {
+      margin: 0;
+    }
+  
+    .fifthHeading {
+      margin-top: 2em;
+    }
+    
+    .fifthHeading > ul > li {
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+  
+@media only screen and (max-width: 375px) {
+  body {
+    font-size: 0.85rem; 
+  }
+
+  .jumbotron{
+      background-size: cover;
+      width: 100%;
+      background-position-x: -340px;
+      height: calc(86vh);
+  }
+
+  .jumbotron2 {
+    padding: 0rem 1rem;
+    background-position-x: -358px;
+  }
+
+  .jumbotron3 {
+    background-position-x: -400px;
+  }
+
+  .accordion {
+    display: block;
+  }
+
+  #secClimbPara {
+    width: 90%;
+    margin-left: 0;
+    margin-top: 2em;
+  }
+
+  .card {
+    width: 160px;
+    margin: 0;
+  }
+
+  .carousel-item.active {
+      margin: 0;
+  }
+
+  .fifthHeading > ul > li {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  body {
+      font-size: 0.75rem; 
+  }
+  
+  .jumbotron{
+      background-size: cover;
+      width: 100%;
+      background-position-x: -300px;
+  }
+  
+  .jumbotron2 {
+      padding: 2rem 1rem;
+      background-color: blue;
+      border-radius: .4rem;
+      max-height: calc(100vh);
+      height: calc(100vh);
+      background-image: url(../images/climb_mountain2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: -288px;
+  }
+  
+  .jumbotron3 {
+      background-position-x: -300px;
+  }
+
+  .accordion {
+    display: block;
+  }
+  
+  #secClimbPara {
+      width: 90%;
+      margin-left: 0;
+      margin-top: 2em;
+  }
+  
+  .card {
+    width: 147px;
+    margin: 0;
+  }
+  
+  .carousel-item.active {
+    margin: 0;
+  }
+
+  .fifthHeading {
+    margin-top: 2em;
+  }
+  
+  .fifthHeading > ul > li {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  footer > p{
+    font-size: 14px;
+  }
+}
+
+
+
